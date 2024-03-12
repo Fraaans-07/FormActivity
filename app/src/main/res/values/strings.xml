@@ -1,0 +1,20 @@
+<resources>
+    <string name="label_nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="hint_nama">Masukkan nama mahasiswa</string>
+    <string name="label_nim">NIM</string>
+    <string name="hint_nim">Masukkan NIM mahasiswa</string>
+    <string name="label_prodi">Program Studi</string>
+    <string name="label_ti">Informatika</string>
+    <string name="label_te">Elektro</string>
+    <string name="label_tt">Mesin</string>
+    <string name="label_jenis_kelamin">Jenis Kelamin</string>
+    <string name="label_laki">Laki-laki</string>
+    <string name="label_perempuan">Perempuan</string>
+    <string name="label_alamat">Alamat</string>
+    <string name="hint_alamat">Masukkan alamat mahasiswa</string>
+    <string name="label_submit">Submit</string>
+    <string name="app_name">Form Activity</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

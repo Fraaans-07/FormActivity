@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Displaying Information -->
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewNama"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewNIM"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewJK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewProdi"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewJK"
+        android:layout_marginBottom="8dp"/>
+</RelativeLayout>

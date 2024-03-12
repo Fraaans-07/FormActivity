@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nama -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nama_mahasiswa"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_nama"
+        android:autofillHints="name" /> <!-- AutofillHints untuk nama -->
+
+    <!-- NIM -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nim"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hint_nim"
+        android:autofillHints="number" /> <!-- AutofillHints untuk nomor -->
+
+    <!-- Program Studi -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_prodi"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonTI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_ti"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonTE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_te"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_tt"/>
+    </RadioGroup>
+
+    <!-- Jenis Kelamin -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_jenis_kelamin"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupJK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonLaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_laki"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonPerempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_perempuan"/>
+    </RadioGroup>
+
+    <!-- Alamat -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_alamat"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="@string/hint_alamat"
+        android:autofillHints="streetAddress" /> <!-- AutofillHints untuk alamat -->
+
+    <!-- Button Submit -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_submit"/>
+</LinearLayout>
